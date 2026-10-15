@@ -29,26 +29,41 @@ const LETTER_LINES: { text: string; className: string; delay: number }[] = [
   { text: 'I just wanted to let you know that', className: 'line', delay: 1.4 },
   { text: 'I love you.', className: 'line love', delay: 1.9 },
   {
+    text: 'You are the most beautiful girl there ever is and would be,',
+    className: 'line',
+    delay: 2.3,
+  },
+  {
+    text: 'you are the fittest athlete because you run throught my min constantly.',
+    className: 'line',
+    delay: 2.7,
+  },
+  {
     text: "I know I've said it over 1,000,000+ times,",
     className: 'line',
-    delay: 2.5,
+    delay: 3.2,
   },
   {
     text: "but I'll always be enthusiastic about letting you know.",
     className: 'line',
-    delay: 3.0,
+    delay: 3.6,
   },
-  { text: 'I cherish you,', className: 'line emphasis', delay: 3.6 },
-  { text: 'I adore you,', className: 'line emphasis', delay: 4.1 },
+  { text: 'I cherish you,', className: 'line emphasis', delay: 4.1 },
+  { text: 'I adore you,', className: 'line emphasis', delay: 4.5 },
   {
     text: 'and I plan on loving you till our souls depart from our bodies.',
     className: 'line',
-    delay: 4.7,
+    delay: 5.0,
   },
   {
     text: "Even after then, if there's a chance to love you again, I'll find you and I'll love you.",
     className: 'line promise',
-    delay: 5.4,
+    delay: 5.6,
+  },
+  {
+    text: "Can't wait to have you in my possession tomorrow.",
+    className: 'line final-line',
+    delay: 6.3,
   },
 ]
 
