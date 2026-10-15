@@ -1,0 +1,43 @@
+:root {
+  --rose: #ff4d6d;
+  --rose-deep: #c9184a;
+  --blush: #ff8fa3;
+  --plum: #2b0a1e;
+  --plum-soft: #3d1029;
+  --cream: #fff0f3;
+  --gold: #ffd6a5;
+  --text: #ffe3ea;
+  --text-dim: #f7b6c6;
+
+  --font-display: 'Great Vibes', cursive;
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Lora', Georgia, serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text);
+  background:
+    radial-gradient(1200px 800px at 15% -10%, rgba(255, 77, 109, 0.25), transparent 60%),
+    radial-gradient(900px 700px at 110% 20%, rgba(201, 24, 74, 0.35), transparent 55%),
+    radial-gradient(800px 600px at 50% 120%, rgba(255, 143, 163, 0.2), transparent 60%),
+    linear-gradient(160deg, #1a0510 0%, var(--plum) 45%, #14040c 100%);
+  background-attachment: fixed;
+}
