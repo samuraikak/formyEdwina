@@ -4,7 +4,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: clamp(0.8rem, 2.5vh, 2rem) clamp(1rem, 4vw, 3rem);
+  padding-top: clamp(0.4rem, 1.2vh, 1rem);
+  padding-bottom: clamp(1.6rem, 6vh, 4rem);
+  padding-inline: clamp(1rem, 4vw, 3rem);
   overflow: hidden;
 }
 
@@ -101,7 +103,7 @@
   max-width: 760px;
   width: 100%;
   max-height: calc(100svh - 2rem);
-  padding: clamp(1.4rem, 4vh, 3.2rem) clamp(1.6rem, 5vw, 4rem);
+  padding: clamp(0.9rem, 2.6vh, 3.2rem) clamp(1.6rem, 5vw, 4rem);
   border-radius: 26px;
   background: linear-gradient(
     165deg,
@@ -154,14 +156,14 @@
 }
 
 .letter-ornament.top {
-  margin-bottom: clamp(0.5rem, 1.5vh, 1.2rem);
-  font-size: clamp(1.1rem, 2.5vh, 1.6rem);
+  margin-bottom: clamp(0.3rem, 1vh, 1.2rem);
+  font-size: clamp(1rem, 2vh, 1.6rem);
   animation: sway 4s ease-in-out infinite;
 }
 
 .letter-ornament.bottom {
-  margin-top: clamp(0.6rem, 1.8vh, 2rem);
-  font-size: clamp(1.1rem, 2.5vh, 1.6rem);
+  margin-top: clamp(0.5rem, 1.5vh, 2rem);
+  font-size: clamp(1rem, 2vh, 1.6rem);
   animation: sway 4s ease-in-out infinite reverse;
 }
 
@@ -180,7 +182,7 @@
 .lines {
   display: flex;
   flex-direction: column;
-  gap: clamp(0.35rem, 1.05vh, 1.4rem);
+  gap: clamp(0.3rem, 0.95vh, 1.4rem);
   text-align: center;
 }
 
